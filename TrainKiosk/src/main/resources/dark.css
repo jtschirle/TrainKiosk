@@ -1,0 +1,79 @@
+HBox, VBox, AnchorPane, ScrollPane, TableView {
+    -fx-background-color: #212121;
+}
+
+Label{
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: #FFB000;
+    -fx-background-radius: 25;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+.button:pressed {
+    -fx-font-weight: bold;
+    -fx-background-color: #1D3AA1;
+    -fx-background-radius: 25;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+    -fx-scale-z: 0.95;
+}
+
+.combo-box {
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+
+.combo-box .context-menu {
+    -fx-font-weight: bold;
+    -fx-background-color: #FFB000;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+
+
+.table-view .column-header-background .label{
+    -fx-background-color: #1D3AA1;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #FFD580;
+
+}
+
+.table-row-cell:even{
+    -fx-background-color: white;
+
+}
+
+.table-row-cell:selected {
+   -fx-background-color: #1D3AA1;
+}
+.table-row-cell:selected .text {
+      -fx-fill: red ;
+}
+
+#errorText {
+    -fx-text-alignment: center;
+    -fx-font-size: 20;
+    -fx-text-fill: Red;
+}
+
+#arrowButton{
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 0 0 -1 0, 0;
+    -fx-padding: 0.25em;
+    -fx-shape: "M 0 -3.5 v 7 l 4 -3.5 z";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}

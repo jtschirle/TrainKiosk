@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trainkiosk.SuccessController">
+   <children>
+      <ImageView fitHeight="318.0" fitWidth="426.0" layoutX="202.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/success.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="129.0" layoutY="390.0" text="Tickets printing below! Have a great day!" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="224.0" layoutY="479.0" mnemonicParsing="false" onAction="#changeScreenBackButtonPushed" prefHeight="43.0" prefWidth="274.0" text="Go Back" />
+   </children>
+</AnchorPane>
